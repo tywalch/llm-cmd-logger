@@ -1,0 +1,22 @@
+{
+  "name": "cmd-log",
+  "version": "1.0.0",
+  "description": "Unified command logger for Claude Code, ChatGPT/Codex, and Cursor",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "cmd-log": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2"
+  }
+}
