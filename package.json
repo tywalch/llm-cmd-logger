@@ -5,7 +5,8 @@
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "cmd-log": "dist/index.js"
+    "cmd-log": "dist/index.js",
+    "install-hooks": "npm run build && node dist/install.js"
   },
   "scripts": {
     "build": "tsc",
